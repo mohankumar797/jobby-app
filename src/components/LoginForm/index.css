@@ -1,0 +1,55 @@
+.containerEl {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 100vh;
+}
+.loginFormEl {
+  display: flex;
+  flex-direction: column;
+  background-color: #272727;
+
+  border-radius: 15px;
+  padding: 15px;
+  width: 30%;
+}
+.heading {
+  color: white;
+}
+.imageLogoEl {
+  display: flex;
+  justify-content: center;
+}
+.usernameLabel {
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.usernameEl {
+  background-color: #272727;
+  border: 1px #7e858e solid;
+  padding: 5px;
+  color: #7e858e;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.formEl {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 15px;
+}
+.buttonEl {
+  background-color: blue;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  color: white;
+}
+.errorMessage {
+  color: red;
+}

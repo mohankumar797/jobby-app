@@ -1,0 +1,23 @@
+.headerEl {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #202020;
+  padding: 16px;
+}
+.listItems {
+  color: white;
+  margin-left: 10px;
+  text-decoration: none;
+  font-size: 24px;
+}
+.listEl {
+  display: flex;
+  list-style: none;
+}
+.button {
+  background-color: blue;
+  color: white;
+  border: none;
+  width: 120px;
+}
